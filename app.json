@@ -1,0 +1,36 @@
+{
+  "expo": {
+    "name": "webview-example",
+    "slug": "snack-d0f7b59a-564b-4aa6-95e3-5c34ab394cde",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#09090a"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "backgroundColor": "#09090a"
+    },
+    "android": {
+      "backgroundColor": "#09090a",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#09090a"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "description": "https://forums.expo.dev/t/react-natrive-webview-is-deprecated/64699?u=wodin"
+  }
+}
