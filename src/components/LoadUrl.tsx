@@ -9,6 +9,7 @@ const LoadURL = ({ url }: LoadURLProps) => {
   return (
     <View style={{ flex: 1 }}>
       <WebView
+        showsVerticalScrollIndicator={false}
         style={{backgroundColor: '#09090a'}}
         source={{ uri: url }}
       />

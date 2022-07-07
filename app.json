@@ -1,7 +1,8 @@
 {
   "expo": {
-    "name": "webview-example",
-    "slug": "snack-d0f7b59a-564b-4aa6-95e3-5c34ab394cde",
+    "name": "Finance App",
+    "slug": "finance-app-expo-rn",
+    "owner": "viictrp",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -31,6 +32,6 @@
     "web": {
       "favicon": "./assets/favicon.png"
     },
-    "description": "https://forums.expo.dev/t/react-natrive-webview-is-deprecated/64699?u=wodin"
+    "description": "Finance App built with Expo and React Native"
   }
 }
