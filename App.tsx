@@ -5,12 +5,12 @@ import LoadURL from './src/components/LoadUrl';
 const App = () => {
   return (
     <View style={styles.container}>
-      <LoadURL url='https://finance-app-react-chi.vercel.app' />
+      <LoadURL url="https://finance-app-angular.vercel.app/" />
       {/* footer */}
-      <View style={{height: 20, backgroundColor: '#18181b'}} />
+      <View style={{ height: 20, backgroundColor: '#18181b' }} />
     </View>
   );
-}
+};
 
 const styles = StyleSheet.create({
   container: {
@@ -18,8 +18,8 @@ const styles = StyleSheet.create({
     width: '100%',
     height: '100%',
     justifyContent: 'center',
-    paddingTop: Constants.statusBarHeight
-  }
+    paddingTop: Constants.statusBarHeight,
+  },
 });
 
 export default App;
