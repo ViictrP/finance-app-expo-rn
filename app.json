@@ -13,14 +13,16 @@
       "backgroundColor": "#09090a"
     },
     "updates": {
-      "fallbackToCacheTimeout": 0
+      "fallbackToCacheTimeout": 0,
+      "url": "https://u.expo.dev/3f615b45-721b-4027-a03e-05c3f4aa9c8b"
     },
     "assetBundlePatterns": [
       "**/*"
     ],
     "ios": {
       "supportsTablet": true,
-      "backgroundColor": "#09090a"
+      "backgroundColor": "#09090a",
+      "bundleIdentifier": "com.viictrp.financeappexporn"
     },
     "android": {
       "backgroundColor": "#09090a",
@@ -32,6 +34,14 @@
     "web": {
       "favicon": "./assets/favicon.png"
     },
-    "description": "Finance App built with Expo and React Native"
+    "description": "Finance App built with Expo and React Native",
+    "extra": {
+      "eas": {
+        "projectId": "3f615b45-721b-4027-a03e-05c3f4aa9c8b"
+      }
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
+    }
   }
 }
