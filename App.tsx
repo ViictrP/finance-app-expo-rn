@@ -5,7 +5,7 @@ import LoadURL from './src/components/LoadUrl';
 const App = () => {
   return (
     <View style={styles.container}>
-      <LoadURL url="http://192.168.15.174:4200/" />
+      <LoadURL url="https://finance-app-angular.vercel.app/" />
       {/* footer */}
       <View style={{ height: 20, backgroundColor: '#18181b' }} />
     </View>
