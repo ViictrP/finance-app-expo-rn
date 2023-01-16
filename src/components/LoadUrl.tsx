@@ -5,6 +5,7 @@ import createInvoke from 'react-native-webview-invoke/native';
 import * as SecureStore from 'expo-secure-store';
 
 const ACCESS_TOKEN_KEY = 'access_token';
+const PREFERENCES_KEY = 'preferences';
 
 interface LoadURLProps {
   url: string;
@@ -27,10 +28,20 @@ const LoadURL = ({ url }: LoadURLProps) => {
     await SecureStore.deleteItemAsync(ACCESS_TOKEN_KEY);
   };
 
+  const savePreferences = async (preferences: string) => {
+    await SecureStore.setItemAsync(PREFERENCES_KEY, preferences);
+  };
+
+  const getPreferences = async () => {
+    return SecureStore.getItemAsync(PREFERENCES_KEY);
+  };
+
   useEffect(() => {
     invoke.define('saveToken', saveToken);
     invoke.define('getToken', getToken);
     invoke.define('deleteToken', deleteToken);
+    invoke.define('savePreferences', savePreferences);
+    invoke.define('getPreferences', getPreferences);
   }, []);
 
   return (
